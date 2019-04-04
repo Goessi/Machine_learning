@@ -1,7 +1,7 @@
 ## 2. Introduction To The Data ##
 
 import pandas as pd
-data = pd.read_csv('AmesHousing.txt',delimiter = '\t')
+data = pd.read_csv("C:\\Users\\JingQIN\\Documents\\GitHub\\Machine_learning\\linear regression\\AmesHousing.txt",delimiter = '\t')
 train = data.iloc[:1460]
 test = data.iloc[1460:]
 print(data.info())
